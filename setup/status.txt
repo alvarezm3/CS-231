@@ -1,0 +1,3 @@
+Miguel Alvarez
+
+I have downloaded Kali/Virtual Box on my personal machine (MacOS). I have finished installing Kali and it's up and running, no issues.
