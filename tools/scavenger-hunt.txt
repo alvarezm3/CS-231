@@ -1,0 +1,1 @@
+(1) My computer's IP address for its current Internet connection in 137.22.164.140 which I found by typing 'ifconfig' into my MacOS terminal and you can find the IP address within all the information given back. 
