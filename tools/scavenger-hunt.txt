@@ -1,4 +1,20 @@
-(1) My computer's IP address for its current Internet connection in 137.22.164.140 which I found by typing 'ifconfig' into my MacOS terminal.
-(2) ping [hostname, for example: carleton.edu]
-(3) nslookup [ip address]
-(4) 
+Miguel Alvarez
+Working on a Mac
+
+(1) My computer's IP address for its current Internet connection in 137.22.164.140 which I found by typing 'ifconfig' into my MacOS terminal. The ethernet IP address is structured with semicolons as opposed to a Wifi connection IP address that's structured with periods.
+
+(2) ping [hostname, example: carleton.edu]
+
+(3) nslookup [IP address]
+
+(4) scp /Desktop/path/to/file username@host/server:/path/to/file (This is for Kali)
+
+(5) lsof -i 4tcp:[port] -sTCP:LISTEN -Fp
+
+(6) sudo lsof -iTcp -sTCP:LISTEN -P -n
+
+(7) curl -O [url]
+
+(8) curl -v [url]
+
+(9) curl -I [url]
