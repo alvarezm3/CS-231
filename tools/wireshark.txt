@@ -25,7 +25,7 @@ Miguel Alvarez and Skyler Kessenich
 
 ======== HTTP ========
 
-1. 50 TCP coonnections were opened
+1.  2 TCP connections were opened
 
 2. Yes, index.html was requested at frame 7. 
 7 0.047056144 10.0.2.15 45.79.89.123 HTTP 395 GET /index.html HTTP/1.1
