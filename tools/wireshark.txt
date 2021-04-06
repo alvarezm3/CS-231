@@ -12,13 +12,15 @@ Miguel Alvarez and Skyler Kessenich
 
 3.  4	0.065950364	129.6.15.29	10.0.2.15	DAYTIME	105	DAYTIME Response
 
-4. ????
+4. Daytime: \n59310 21-04-06 02:58:45 50 0 0 449.8 UTC(NIST) * \n
+    - source: https://www.nist.gov/pml/time-and-frequency-division/time-distribution/internet-time-service-its
+    - the number (59310) before the date is the Modified Julian Date. The 50 indicates that the US is in Daylight Savings Time is in effect. The first 0 after the 50 means that no leap second will occur this month. The second 0 after the 50 indicates that the server is healthy. 449.8 is the number of milliseconds that NIST advances the time code to account for network delays. UTC(NIST) means that you are receiving Coordinated Universal Time (UTC) from NIST. The * is the on-time marker that means that the time we received (i.e. the time code) is when the on-time marker (*) arrives.
 
 5. Synchronize which initializes the connection between the client and the server.
 
 6. Aknowledge which means that the connection has been aknowledged by the receiving client or server.
 
-7. This closes the connection.
+7. Fin closes the connection.
 
 8. The Daytime Server closed the connection because the server sent ehte first [FIN] message.
 5	0.065950402	129.6.15.29	10.0.2.15	TCP	60	13 → 44964 [FIN, ACK] Seq=52 Ack=1 Win=32768 Len=0
@@ -34,3 +36,5 @@ Miguel Alvarez and Skyler Kessenich
 11 0.272929606 10.0.2.15 45.79.89.123 HTTP 364 GET /jeff_square_head.jpg HTTP/1.1
 
 ======== Questions ========
+
+1. 
