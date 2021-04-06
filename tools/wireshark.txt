@@ -37,4 +37,8 @@ Miguel Alvarez and Skyler Kessenich
 
 ======== Questions ========
 
-1. 
+1. For the daytime server question about finding what some of the other information in the frame (question 4) meant, will there always be some sort of documentation for server responses?
+
+2. What would happen if a [FIN] was just never sent, would the connection be closed after a finite amount of time?
+
+3. Now that we have this bit of knowledge, what can this lead us to show/do going forward in the class?
